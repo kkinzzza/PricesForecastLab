@@ -1,1 +1,1 @@
-# PricesForecastLab
+# Prices Forecast Lab
