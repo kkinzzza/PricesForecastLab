@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab work was made during the course of Applied Artificial Intelligence at ITMO University. Its goal was to …
+This lab work was made during the course of Applied Artificial Intelligence at ITMO University. Its goal was to predict the housing prices by using neural network regression model made by TensorFlow Keras.
 
 ## Used Tools & Libraries
 
@@ -16,10 +16,8 @@ This lab work was made during the course of Applied Artificial Intelligence at I
 
 ## Work Process Description
 
-edit!!
-*  **Data Preprocessing**: the distibution and characteristics of data were revealed.
-*  **Models Selection**: 5 models from Scikit-learn library were selected for researching and training.
-*  **Models Training**: selected models had been trained on the train dataset.
-*  **Visualization**: every model training was followed by visualization of results – I got Precision, Recall and F1-Score metrics by classification reports, printed the Accuracy scores and drew Confusion Matrixes.
-*  **Models Comparison**: models were compared by Accuracy and F1-Score, the most and least applicable models were revealed and the results were explained.
-
+*  **Data Preprocessing**: the data was processed, NaN values were removed.
+*  **Model Making**: the neural network with 3 linear layers was made with TensorFlow.
+*  **Model Training**: the model had been trained on the train dataset.
+*  **Metrics Calculating**: I got MSLE loss, MSE and MAE values as metrics of model training. MAE is the most representative metric in this case because of the task specificity – we want to minimize errors according to absolute difference between predicted and actual prices.
+*  **Model Validation and Prediction**: model was tested by validation data and was used to predict the prices on test dataset.
